@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build practice.c",
+			"type": "shell",
+			"command": "gcc",
+			"args": [
+				"practice.c",
+				"-o",
+				"practice.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
