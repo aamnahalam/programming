@@ -16,6 +16,4 @@ void FlightMenu();
 void PassengerMenu();
 void BookingMenu();
 void printmenu();
-struct Flight
-struct Passenger
-struct Booking
+
