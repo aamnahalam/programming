@@ -1,18 +1,18 @@
 void addPassenger() {
-if(count>=100) {
+if(passengerCount>=100)
 printf("Cannot add more passengers. Limit reached. \n");
 return;
 }
 printf("Enter Passenger ID: ");
-scanf("%d",&passengers[count].id);
+scanf("%d",&passengers[passengerCount].id);
 
 
 printf("Enter Name: ");
-scanf("%s",&flights[count].name);
+scanf("%s",&passengers[passengerCount].name);
 
 printf("Enter Age: ");
-scanf("%s", &flights[count].age);
+scanf("%s",&passengers[passengerCount].age);
 
-count++;
+passengerCount++;
 printf("PASSENGER ADDED SUCESSFULLY !\n");
 }

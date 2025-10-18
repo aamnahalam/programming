@@ -5,26 +5,26 @@ char destination[50];
 int seats;
 };
 struct Flight flights[100] 
-int count=0;
+int flightCount=0;
 void addflights() 
 {
-if(Count>=100) {
+if(flightCount>=100){
 printf(" CANNOT ADD MORE FLIGHTS. LIMIT REACHED.\n");
 return;
 }
 printf("Enter flight ID : ");
-scanf("%d",&flights[count].id);
+scanf("%d",&flights[flightCount].id);
 
 printf("Enter Source : ");
-scanf("%s",&flights[count].source);
+scanf("%s",&flights[flightCount].source);
 
 printf("Enter Destination : ");
-scanf("%s", &flights[count].destination);
+scanf("%s", &flights[flightCount].destination);
 
 printf("Enter Seats : ");
-scanf("%d", &flights[count].seats);
+scanf("%d", &flights[flightCount].seats);
 
-count++;
+flightCount++;
 printf("FLIGHT ADDED SUCESSFULLY ! \n");
 }
 
