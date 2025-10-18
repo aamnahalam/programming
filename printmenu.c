@@ -1,4 +1,4 @@
-void printMmenu()
+void printMenu()
 {
     printf("=============================\n");
     printf("   FLIGHT RESERVATION SYSTEM  \n");

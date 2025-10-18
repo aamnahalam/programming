@@ -6,16 +6,15 @@ void addFlights();
 void updateFlights();
 void deleteFlights();
 void showallFlights();
-void addPassenger();
+void addPassengers();
 void showAllPassengers();
-void bookTicket();
-void cancelTicket();
+void bookTickets();
+void cancelTickets();
 void showAllBookings();
 void printMainMenu();
 void FlightMenu();
 void PassengerMenu();
 void BookingMenu();
 void printmenu();
-struct Flight
-struct Passenger
-struct Booking
+
+
